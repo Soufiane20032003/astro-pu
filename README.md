@@ -6,8 +6,6 @@
 
 This template, crafted by **Mountos** ([mountos.com](https://mountos.com)), is designed to provide a "Pu"-like starting point. It strips away all unnecessary complexity to offer a structurally clean, elegantly designed, and SEO-friendly Astro foundation, allowing you to focus on carving your own content and ideas.
 
-[![Deploy to Cloudflare Pages](https://static.cloudflareimages.com/pages/button.svg)](https://deploy.workers.cloudflare.com/?url=https://github.com/mountos/astro-pu)
-
 ---
 
 ## ✨ Core Features

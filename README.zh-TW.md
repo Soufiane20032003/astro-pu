@@ -6,8 +6,6 @@
 
 本模板由 **Mountos** ([mountos.com](https://mountos.com)) 打造，旨在提供一個如「璞」玉般的起點。它移除了所有不必要的複雜性，專注於提供一個結構清晰、設計雅緻、SEO 友善的 Astro 基礎，讓您可以專注於雕琢您的內容與想法。
 
-[![Deploy to Cloudflare Pages](https://static.cloudflareimages.com/pages/button.svg)](https://deploy.workers.cloudflare.com/?url=https://github.com/Mountos/astro-pu)
-
 ---
 
 ## ✨ 核心特性
