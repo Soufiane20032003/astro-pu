@@ -20,15 +20,15 @@ export async function getStaticPaths() {
 const { category } = Astro.params;
 const { posts } = Astro.props;
 ---
-<Layout title={`分類: ${category}`}>
+<Layout title={`Category: ${category}`}>
   <section class="post-list">
-    <h2>分類: {category}</h2>
+    <h2>Category: {category}</h2>
     <ul>
       {posts.map(post => (
         <li>
           <a href={`/blog/${post.slug}/`}>
             <span class="post-title">{post.data.title}</span>
-            <span class="post-date">{new Date(post.data.pubDate).toLocaleDateString('zh-TW')}</span>
+            <span class="post-date">{new Date(post.data.pubDate).toLocaleDateString('en-US')}</span>
           </a>
         </li>
       ))}

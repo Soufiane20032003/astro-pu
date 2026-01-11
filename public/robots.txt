@@ -1,4 +1,4 @@
-# 結合了 Cloudflare AI 防護與 SEO Sitemap 的最佳實踐版本
+# Best practice version combining Cloudflare AI protection and SEO Sitemap
 
 # BEGIN AI and Bot Protection Rules (originally by Cloudflare)
 
@@ -33,4 +33,4 @@ Disallow: /
 # END AI and Bot Protection Rules
 
 # Sitemap location for search engines
-Sitemap: https://blog.animalan.com/sitemap-index.xml
+Sitemap: https://example.com/sitemap-index.xml

@@ -1,46 +1,46 @@
 ---
-title: "歡迎使用 Mountos xAstro 模板"
-description: "這是一篇介紹此模板功能的範例文章。您可以在這裡學習如何使用 Markdown 來撰寫您的內容。"
+title: "Welcome to Mountos xAstro Template"
+description: "This is an example article introducing the features of this template. Here you can learn how to write your content using Markdown."
 pubDate: 2026-01-05T12:00:00Z
-categories: ["教學"]
-tags: ["Astro", "模板", "Markdown"]
+categories: ["Tutorial"]
+tags: ["Astro", "Template", "Markdown"]
 heroImage: "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&w=2070&auto=format&fit=crop"
 ---
 
-歡迎來到您的新網站！這是一個使用 [Mountos xAstro Basic Template](https://mountos.com) 建立的示範頁面。您可以自由編輯或刪除這篇文章。
+Welcome to your new website! This is a demo page built using the [Mountos xAstro Basic Template](https://mountos.com). You are free to edit or delete this article.
 
-這篇文章的目的是展示您可以使用 Markdown 撰寫的各種內容格式，以及這個模板內建的各種功能。
+The purpose of this article is to showcase the various content formats you can write using Markdown, as well as the built-in features of this template.
 
-## 這是一個 H2 標題
+## This is an H2 Heading
 
-您可以透過撰寫 Markdown 來建立文章。Astro 會自動將其轉換為 HTML。所見即所得，非常簡單。
+You can create articles by writing Markdown. Astro will automatically convert it to HTML. What you see is what you get, it's very simple.
 
-### 這是一個 H3 標題
+### This is an H3 Heading
 
-您可以有不同層級的標題來組織您的內容。這對於 SEO 和文章的易讀性都很有幫助。
+You can have different levels of headings to organize your content. This is very helpful for SEO and readability.
 
-#### 列表
+#### Lists
 
-*   這是一個無序列表的項目
-*   您可以有很多項目
-    *   甚至可以有巢狀的列表
+*   This is an unordered list item
+*   You can have many items
+    *   Even nested lists
 
-1.  這是一個有序列表
-2.  順序會自動被計算
-3.  非常適合用來寫教學步驟
+1.  This is an ordered list
+2.  The order will be automatically calculated
+3.  Great for writing tutorials
 
-#### 引用文字
+#### Blockquotes
 
-有時候您想引用某人的話，可以使用 blockquote。
+Sometimes you want to quote someone, you can use blockquote.
 
-> 這是一個引用區塊。它會以特殊的樣式顯示，來強調這段文字的重要性或來源。
+> This is a blockquote. It will be displayed with special styling to emphasize the importance or source of the text.
 
-#### 程式碼區塊
+#### Code Blocks
 
-對於技術部落格來說，程式碼區塊是不可或缺的。這個模板已經為您準備了優雅的語法高亮。
+For technical blogs, code blocks are indispensable. This template has prepared elegant syntax highlighting for you.
 
 ```javascript
-// 這是一段 JavaScript 程式碼範例
+// This is a JavaScript code example
 function greet(name) {
   console.log(`Hello, ${name}!`);
 }
@@ -48,12 +48,12 @@ function greet(name) {
 greet('Astro');
 ```
 
-#### 圖片
+#### Images
 
-在 Markdown 中插入圖片也非常簡單。
+Inserting images in Markdown is also very simple.
 
-![這是一個圖片的 ALT 描述文字](https://images.unsplash.com/photo-1588392382834-a891154bca4d?q=80&w=2070&auto=format&fit=crop)
+![This is an ALT description for the image](https://images.unsplash.com/photo-1588392382834-a891154bca4d?q=80&w=2070&auto=format&fit=crop)
 
 ---
 
-恭喜您！現在您已經掌握了基礎。開始撰寫您自己的內容，並與世界分享您的想法吧。
+Congratulations! You have now mastered the basics. Start writing your own content and share your ideas with the world.

@@ -24,8 +24,8 @@ const primaryCategory = frontmatter.categories?.[0];
     <article class="post">
       <div class="post-meta-bar">
         <div class="meta-item">
-          <span class="label">發布於</span>
-          <span class="value">{new Date(frontmatter.pubDate).toLocaleDateString('zh-TW')}</span>
+          <span class="label">Posted on</span>
+          <span class="value">{new Date(frontmatter.pubDate).toLocaleDateString('en-US')}</span>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const primaryCategory = frontmatter.categories?.[0];
       {frontmatter.tags?.length > 0 &&
         <footer class="post-footer">
           <div class="tags-list">
-            <span>標籤</span>
+            <span>Tags</span>
             {frontmatter.tags.map((tag: string) => (
               <a href={`/tags/${tag}`}>{tag}</a>
             ))}

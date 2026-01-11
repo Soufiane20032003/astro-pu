@@ -7,26 +7,26 @@ export interface Props {
 
 const { page } = Astro.props;
 ---
-<nav class="pagination" aria-label="分頁導覽">
+<nav class="pagination" aria-label="Pagination Navigation">
   <div class="nav-links">
     {page.url.prev ? (
       <a href={page.url.prev} class="nav-link prev">
-        &larr; 上一頁
+        &larr; Previous
       </a>
     ) : (
-      <span class="nav-link disabled">&larr; 上一頁</span>
+      <span class="nav-link disabled">&larr; Previous</span>
     )}
 
     <span class="page-indicator">
-      第 {page.currentPage} 頁 / 共 {page.lastPage} 頁
+      Page {page.currentPage} of {page.lastPage}
     </span>
 
     {page.url.next ? (
       <a href={page.url.next} class="nav-link next">
-        下一頁 &rarr;
+        Next &rarr;
       </a>
     ) : (
-      <span class="nav-link disabled">下一頁 &rarr;</span>
+      <span class="nav-link disabled">Next &rarr;</span>
     )}
   </div>
 </nav>

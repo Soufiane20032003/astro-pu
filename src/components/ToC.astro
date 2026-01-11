@@ -11,7 +11,7 @@ const { headings } = Astro.props;
 const filteredHeadings = headings.filter(h => h.depth === 2 || h.depth === 3);
 ---
 <nav class="toc">
-  <h4 class="toc-title">文章目錄</h4>
+  <h4 class="toc-title">Table of Contents</h4>
   <ul>
     {filteredHeadings.map(heading => (
       <li class={`depth-${heading.depth}`}>

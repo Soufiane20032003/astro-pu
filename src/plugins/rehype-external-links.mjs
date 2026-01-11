@@ -14,10 +14,6 @@ export default function rehypeExternalLinks() {
         // Check if it's an external link
         if (url.startsWith('http://') || url.startsWith('https://')) {
           // You might want to add a check here to exclude your own domain
-          // const myDomain = 'animalan.com';
-          // if (url.includes(myDomain)) {
-          //   return;
-          // }
 
           node.properties.rel = 'nofollow noopener noreferrer';
           node.properties.target = '_blank';

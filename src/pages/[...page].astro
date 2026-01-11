@@ -17,18 +17,18 @@ interface Props {
 
 const { page } = Astro.props;
 
-const pageTitle = "Animalan | 部落格";
-const pageDescription = `所有關於動物的資訊${page.currentPage > 1 ? ` | 第 ${page.currentPage} 頁` : ''}`;
+const pageTitle = "MOUntos | Blog";
+const pageDescription = `The latest news from MOUntos Institute${page.currentPage > 1 ? ` | Page ${page.currentPage}` : ''}`;
 ---
 <Layout title={pageTitle} description={pageDescription}>
 	<section class="post-list">
-		<h2>最新文章</h2>
+		<h2>Latest Posts</h2>
 		<ul>
 			{page.data.map((post) => (
 				<li>
 					<a href={`/blog/${post.slug}/`}>
 						<span class="post-title">{post.data.title}</span>
-						<span class="post-date">{post.data.pubDate.toLocaleDateString('zh-TW')}</span>
+						<span class="post-date">{post.data.pubDate.toLocaleDateString('en-US')}</span>
 					</a>
 				</li>
 			))}

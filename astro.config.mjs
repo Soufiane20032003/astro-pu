@@ -1,5 +1,5 @@
 /**
- * Astro Pu (璞) Template
+ * Astro Pu (Uncarved Jade) Template
  *
  * @author    Mountos (https://mountos.com)
  * @license   MIT

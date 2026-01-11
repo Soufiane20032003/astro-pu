@@ -2,7 +2,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="搜尋 | Animalan">
+<Layout title="Search | MOUntos">
   <main>
     <div id="search" class="search-container"></div>
   </main>
@@ -19,24 +19,24 @@ import Layout from '../layouts/Layout.astro';
           element: "#search",
           showSubResults: true,
           translations: {
-            placeholder: "在這裡搜尋文章...",
-            clear_search: "清除",
-            load_more: "載入更多結果",
-            search_label: "搜尋這個網站",
-            filters_label: "篩選",
-            zero_results: "找不到 [SEARCH_TERM] 的相關結果",
-            many_results: "找到 [COUNT] 個 [SEARCH_TERM] 的相關結果",
-            one_result: "找到 [COUNT] 個 [SEARCH_TERM] 的相關結果",
-            alt_search: "找不到 [SEARCH_TERM] 的相關結果. 改為搜尋 [DIFFERENT_TERM]?",
-            search_suggestion: "找不到 [SEARCH_TERM] 的相關結果. 試試下列其中一個搜尋?",
-            searching: "正在搜尋 [SEARCH_TERM]..."
+            placeholder: "Search for articles...",
+            clear_search: "Clear",
+            load_more: "Load more results",
+            search_label: "Search this site",
+            filters_label: "Filters",
+            zero_results: "No results for [SEARCH_TERM]",
+            many_results: "[COUNT] results for [SEARCH_TERM]",
+            one_result: "[COUNT] result for [SEARCH_TERM]",
+            alt_search: "No results for [SEARCH_TERM]. Try searching for [DIFFERENT_TERM] instead?",
+            search_suggestion: "No results for [SEARCH_TERM]. Try one of the following searches?",
+            searching: "Searching for [SEARCH_TERM]..."
           }
         });
       } catch (e) {
         console.error('Failed to load Pagefind UI:', e);
         const searchContainer = document.querySelector('#search');
         if (searchContainer) {
-          searchContainer.innerHTML = '<p style="color: red;">搜尋功能載入失敗，請稍後再試。</p>';
+          searchContainer.innerHTML = '<p style="color: red;">Failed to load search functionality. Please try again later.</p>';
         }
       }
     });

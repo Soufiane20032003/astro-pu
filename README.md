@@ -1,8 +1,8 @@
 [閱讀中文版說明 (Read in Chinese)](./README.zh-TW.md)
 
-# Astro Pu (璞) - An Elegant Astro Starter Template
+# Astro Pu - An Elegant Astro Starter Template
 
-**Pu (璞)**, meaning uncarved jade, represents pure potential and innate beauty.
+**Pu**, meaning uncarved jade, represents pure potential and innate beauty.
 
 This template, crafted by **Mountos** ([mountos.com](https://mountos.com)), is designed to provide a "Pu"-like starting point. It strips away all unnecessary complexity to offer a structurally clean, elegantly designed, and SEO-friendly Astro foundation, allowing you to focus on carving your own content and ideas.
 

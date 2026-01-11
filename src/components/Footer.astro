@@ -12,31 +12,31 @@ const today = new Date();
     <div class="footer-main">
       <div class="footer-intro">
         <h3>Your Website</h3>
-        <p>在此處撰寫您網站的簡短介紹。這有助於訪客快速了解您的網站主題。</p>
+        <p>Write a brief introduction to your website here. This helps visitors quickly understand your site's theme.</p>
       </div>
       <div class="footer-menus">
         <div class="footer-menu">
-          <h4>分類主題</h4>
+          <h4>Categories</h4>
           <ul>
             {uniqueCategories.slice(0, 5).map(category => (
               <li><a href={`/categories/${category}`}>{category}</a></li>
             ))}
-            {uniqueCategories.length > 5 && <li><a href="/categories">...更多</a></li>}
+            {uniqueCategories.length > 5 && <li><a href="/categories">...More</a></li>}
           </ul>
         </div>
         <div class="footer-menu">
-          <h4>網站資訊</h4>
+          <h4>Site Information</h4>
           <ul>
-            <li><a href="/about">關於我們</a></li>
-            <li><a href="/contact">聯絡我們</a></li>
-            <li><a href="/privacy">隱私權政策</a></li>
-            <li><a href="/search">站內搜尋</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/search">Site Search</a></li>
           </ul>
         </div>
         <div class="footer-menu">
-          <h4>支持我們</h4>
+          <h4>Support Us</h4>
           <ul>
-            <li><a href="https://mounx.com/s/buyMacoffee" rel="nofollow noopener noreferrer" target="_blank">❤️ 捐款支持</a></li>
+            <li><a href="https://mounx.com/s/buyMacoffee" rel="nofollow noopener noreferrer" target="_blank">❤️ Donate</a></li>
           </ul>
         </div>
       </div>
